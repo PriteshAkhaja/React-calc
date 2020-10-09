@@ -1,0 +1,54 @@
+body{
+  background-color:#484848;
+}
+
+.calc-app {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 456px;
+  text-align: center;
+  border: 1px solid gray;
+  margin-top:100px;
+ 
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+  border: 1px solid gray;
+
+}
+
+button{
+  border: 1px solid gray;
+  background-color: #181818;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+input[type="text"] {
+  height: 90px;
+  width:448px;
+  background-color: #000000;
+  color: aliceblue;
+  font-size: 25px;
+  direction: RTL;
+}
+
+#clear {
+  grid-column: 1/3;
+  grid-row: 1;
+  color: red;
+}
+
+#result {
+  grid-column: 3/5;
+  grid-row: 5;
+  color:red;
+  font-size: 25px;
+}
+
+#backspace {
+  color: orangered;
+}
