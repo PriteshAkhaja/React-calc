@@ -70,7 +70,7 @@ function App() {
           &times;
         </button>
         <button name="1" onClick={handleClick}>
-          1
+          one
         </button>
         <button name="2" onClick={handleClick}>
           2
