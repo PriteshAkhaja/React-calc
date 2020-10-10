@@ -5,11 +5,13 @@ import BackspaceIcon from '@material-ui/icons/Backspace';
 function App() {
   const [result, setResult] = useState("");
   const inputRef = useRef(null);
+  //var m="";
 
   useEffect(() => inputRef.current.focus());
 
   function handleClick(e) {
-    setResult(result.concat(e.target.name));
+    var m=e.target.name;
+      setResult(result.concat(e.target.name));
   }
 
   function backspace() {
@@ -70,7 +72,7 @@ function App() {
           &times;
         </button>
         <button name="1" onClick={handleClick}>
-          one
+          1
         </button>
         <button name="2" onClick={handleClick}>
           2
