@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import BackspaceIcon from '@material-ui/icons/Backspace';
 
 function App() {
   const [result, setResult] = useState("");
@@ -38,7 +39,8 @@ function App() {
           Clear
         </button>
         <button id="backspace" onClick={backspace}>
-          C
+        <BackspaceIcon />
+
         </button>
         <button name="+" onClick={handleClick}>
           +

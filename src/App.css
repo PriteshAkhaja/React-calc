@@ -45,8 +45,8 @@ input[type="text"] {
 #result {
   grid-column: 3/5;
   grid-row: 5;
-  color:red;
-  font-size: 25px;
+  color:green;
+  font-size: 35px;
 }
 
 #backspace {
